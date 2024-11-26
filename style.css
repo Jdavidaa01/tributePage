@@ -1,0 +1,90 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h1 {
+    color: #007bff;
+}
+
+#title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de la imagen */
+#img-div {
+    text-align: center; /* Centra la imagen dentro del contenedor */
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+#image {
+    display: block;      /* Hace que la imagen se muestre como un bloque */
+    max-width: 100%;     /* Limita la imagen al 100% del ancho del contenedor */
+    height: auto;        /* Mantiene la proporción de la imagen */
+    margin: 0 auto;      /* Centra la imagen horizontalmente */
+}
+
+/* Estilo para el pie de la imagen */
+#img-caption {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para el texto y la lista de la trayectoria */
+#tribute-info {
+    margin-top: 30px;
+}
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-item {
+    background-color: #e9ecef;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estilos para el enlace "más" */
+#more {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#tribute-link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#tribute-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
